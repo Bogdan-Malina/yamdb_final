@@ -1,4 +1,4 @@
-name: name_name
+name: yamdb_final
 
 on: [push]
 
@@ -71,4 +71,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.workflow }} 123
+        message: ${{ github.workflow }} уведомление
