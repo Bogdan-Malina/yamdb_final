@@ -59,6 +59,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          context: ./api_yamdb/
           tags: habo3hnk/yamdb_final:latest
 
 #  send_message:
