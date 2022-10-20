@@ -19,10 +19,12 @@ jobs:
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         pip install -r requirements.txt
 
+
     - name: Test with pytest
       run: pytest
     - name: Test flake8
       run: flake8 api/ api_yamdb/ --exclude api/migrations/,api_yamdb/settings.py
+
 
   deploy:
     runs-on: ubuntu-latest
