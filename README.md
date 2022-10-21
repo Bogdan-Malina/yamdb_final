@@ -99,3 +99,6 @@ DRF simplejwt 4.7<br>
 Вадим Соколов https://github.com/sokolovados
 Максим Волочковский https://github.com/VarrySPb
 Данил Воронин https://github.com/Bogdan-Malina
+
+yamdb_final
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
