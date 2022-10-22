@@ -11,9 +11,9 @@ services:
   web:
     image: habo3hnk/yamdb_final:latest
     restart: always
-#    command: python manage.py makemigrations
-#    command: python manage.py makemigrations users
-#    command: python manage.py migrate
+    command: python manage.py makemigrations
+    command: python manage.py makemigrations users
+    command: python manage.py migrate
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
